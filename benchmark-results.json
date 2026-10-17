@@ -1,0 +1,18 @@
+{
+  "rows": 100000,
+  "runs_per_phase": 30,
+  "scope": "in-memory SQL only; warm cache; not API latency",
+  "before": {
+    "median_ms": 2.4835,
+    "query_plan": [
+      "SCAN orders",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ]
+  },
+  "after": {
+    "median_ms": 0.0154,
+    "query_plan": [
+      "SEARCH orders USING COVERING INDEX idx_customer_created (customer_id=?)"
+    ]
+  }
+}
