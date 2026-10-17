@@ -205,25 +205,6 @@ Suggested description: **Local support engineering lab with a REST API, SQL inve
 
 The `.gitignore` excludes virtual environments, databases, `.env`, and logs. The sample key and `example.com` addresses are intentional demo values.
 
-## Suggested learning schedule
-
-1. Run the API and explain a request and response.
-2. Create an order and inspect database records.
-3. Complete authentication and validation exercises.
-4. Investigate missing orders, wrong totals, and server errors.
-5. Run the benchmark and explain the index.
-6. Write your own incident reports and record a short demo.
-7. Add one feature yourself, such as order-status history.
-
-## Resume wording after completing the lab
-
-**API & SQL Troubleshooting Lab | Python, FastAPI, SQLite, Postman, pytest**
-
-- Extended a customer orders API using input validation, parameterized SQL, transactions, and request logging.
-- Reproduced six simulated support scenarios and documented investigations, root causes, and verified resolutions.
-- Validated API behavior with regression tests and compared query plans before and after indexing.
-
-Adjust these statements to your actual contribution. Only include metrics you measured yourself.
 
 ## File guide
 
